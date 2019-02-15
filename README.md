@@ -22,6 +22,7 @@ Summary:
   
    and other packages:
    >pip install -U  keras_applications==1.0.6 --no-deps
+   
    >pip install -U  keras_preprocessing==1.0.5 --no-deps
   
 3. Download the source code of TensorFlow:
