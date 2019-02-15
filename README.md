@@ -28,7 +28,9 @@ Summary:
     (https://github.com/tensorflow/tensorflow/releases/tag/v1.12.0)
    
    >tar zxf v1.12.0.tar.gz
+   
    >cd tensorflow-1.12.0
+   
    >./configure
    >
    >bazel build --config=opmonolithic  //tensorflow/tools/pip_package:build_pip_package
