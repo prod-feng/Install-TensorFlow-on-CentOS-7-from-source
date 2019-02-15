@@ -56,7 +56,7 @@ After it is done, you can then install the build TensorFlow package:
 
    >pip install /tmp/tensorflow_pkg//tensorflow-1.12.0-cp37-cp37m-linux_x86_64.whl
    
-Great. It's done. You can verify to see the install TensorFLow:
+Great. It's done. You can verify to see the installed TensorFLow:
 
    >$ pip list|grep tensorflow
    
