@@ -44,7 +44,7 @@ Summary:
 >     PROTOBUF_SHA256 = "73fdad358857e120fd0fa19e071a96e15c0f23bb25f85d3f7009abfd4f264a2a"
 >     PROTOBUF_STRIP_PREFIX = "protobuf-3.6.1.3"
 
-Do not forget update the "PROTOBUF_SHA256" key when chnage diffrent version of package.
+Do not forget update the "PROTOBUF_SHA256" key when change diffrent version of package.
 
 4. If everything goes fine when compiled, then you will be able to build a pip package of the TnesorFlow. 
    > ./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
