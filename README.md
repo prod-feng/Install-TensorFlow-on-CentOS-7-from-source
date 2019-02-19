@@ -3,10 +3,15 @@ Install TensorFlow on CentOS 7 from source
 
 Summary:
   OS: CentOS 7.4.1708, 3.10.0-693.17.1.el7.x86_64
+  
   tensorflow-1.12
+  
   conda version : 4.6.4
+  
   conda-build version : 3.17.6
+  
   python version : 3.7.1.final.0
+  
   bazel                     0.18.0 
   
   In the folowing I list the steps that I used to install TensorFlow on CentOS 7 from source.
@@ -52,7 +57,7 @@ Do not forget update the "PROTOBUF_SHA256" key when change diffrent version of p
 4. If everything goes fine when compiled, then you will be able to build a pip package of the TnesorFlow. 
    > ./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
    
-After it is done, you can then install the build TensorFlow package:
+After it is done, you can then install the built TensorFlow package:
 
    >pip install /tmp/tensorflow_pkg//tensorflow-1.12.0-cp37-cp37m-linux_x86_64.whl
    
