@@ -41,7 +41,7 @@ Summary:
    >
    >bazel build --config=opmonolithic  //tensorflow/tools/pip_package:build_pip_package
    
-   There are some changes on the building settings may needed to compile sucessfully. First, it seems TensorFlow does not compile on Python 3.7, because an issue in "protobuf" package.
+   There are some changes on the building settings may be needed to compile sucessfully. First, it seems TensorFlow does not compile on Python 3.7, because an issue in "protobuf" package.
    It is supposed to have been fixed in "protobuf" newer version of 3.6.1. The problem is that the bazel config file of TensorFlow, "tensorflow/workspace.bzl",
    is hard coded to use protobuf 3.6.0, so you may need to manually change it, like the following:
 >     PROTOBUF_URLS = [
@@ -54,7 +54,7 @@ Summary:
 
 Do not forget update the "PROTOBUF_SHA256" key when change diffrent version of package.
 
-4. If everything goes fine when compiled, then you will be able to build a pip package of the TnesorFlow. 
+4. If everything goes well when compile, then you will be able to build a pip package of the TnesorFlow. 
    > ./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
    
 After it is done, you can then install the built TensorFlow package:
